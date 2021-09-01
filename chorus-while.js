@@ -1,12 +1,5 @@
 const chorus = "lets dance";
-let rept = 0;
-while(rept<10){
-  if(rept===5){
-    console.log('change key');
-  }
-  
+for (var rept=0;rept<10;rept++){
   console.log(chorus);
-  
-  rept++;
 }
-console.log('until the sun comes up...')
+console.log('until the sun comes up....');
