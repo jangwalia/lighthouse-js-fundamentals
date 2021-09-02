@@ -1,5 +1,8 @@
 //Basic function expression and calling
-const greeting = function (name){
-  console.log("Hello " + name);
+const isEven = function(num){
+  return num%2 === 0;
 }
-greeting("Jangi");
+let Num1 = isEven(10);
+let Num2 = isEven(15);
+console.log(Num1);
+console.log(Num2);
