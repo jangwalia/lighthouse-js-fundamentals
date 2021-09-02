@@ -1,5 +1,5 @@
 //Basic function expression and calling
-const greeting = function(){
-  console.log("Hello, Everyone");
+const greeting = function (name){
+  console.log("Hello " + name);
 }
-greeting();
+greeting("Jangi");
